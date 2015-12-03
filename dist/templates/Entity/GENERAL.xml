@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:com.coda.efinance.schemas.entitymaster.entity xmlns="http://www.coda.com/efinance/schemas/entitymaster" xmlns:ns2="com.coda.efinance.schemas.entitymaster">
+    <TimeStamp>0</TimeStamp>
+    <Code>GENERAL</Code>
+    <Name>General Information</Name>
+    <ShortName>General Information</ShortName>
+    <Type>reporting_code</Type>
+    <Members>
+        <Member>
+            <Value>PAD</Value>
+            <Description>PAD</Description>
+            <Enabled>true</Enabled>
+            <Flags/>
+        </Member>
+    </Members>
+</ns2:com.coda.efinance.schemas.entitymaster.entity>

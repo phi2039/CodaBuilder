@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:com.coda.efinance.schemas.entitymaster.entity xmlns="http://www.coda.com/efinance/schemas/entitymaster" xmlns:ns2="com.coda.efinance.schemas.entitymaster">
+    <TimeStamp>8</TimeStamp>
+    <Code>RESOLUTION</Code>
+    <Name>Diary resolution codes</Name>
+    <ShortName>Diary resolut. codes</ShortName>
+    <Type>resolution_code</Type>
+    <Members>
+        <Member>
+            <Value>RECEIVED</Value>
+            <Description>Payment received</Description>
+            <Enabled>false</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>DUPLICATE</Value>
+            <Description>Duplicate invoice sent</Description>
+            <Enabled>false</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>CREDNOTE</Value>
+            <Description>Credit note to be issued</Description>
+            <Enabled>false</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>GOODSRPL</Value>
+            <Description>Goods replaced</Description>
+            <Enabled>false</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>MISC</Value>
+            <Description>Miscellaneous</Description>
+            <Enabled>false</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>COLLECTABLE</Value>
+            <Description>Invoice deemed to be Collectable</Description>
+            <Enabled>false</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>WRITE-OFF</Value>
+            <Description>Invoice deemed to be Written Off</Description>
+            <Enabled>false</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>SUSPENSE</Value>
+            <Description>Invoice to be transferred</Description>
+            <Enabled>false</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>CREDSERVICES</Value>
+            <Description>Credit Review Completed</Description>
+            <Enabled>false</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>PENDING</Value>
+            <Description>Pending to be Resolved</Description>
+            <Enabled>false</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>CLOSED</Value>
+            <Description>Issue or Dispute Closed</Description>
+            <Enabled>false</Enabled>
+            <Flags/>
+        </Member>
+    </Members>
+</ns2:com.coda.efinance.schemas.entitymaster.entity>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:com.coda.efinance.schemas.entitymaster.entity xmlns="http://www.coda.com/efinance/schemas/entitymaster" xmlns:ns2="com.coda.efinance.schemas.entitymaster">
+    <TimeStamp>1</TimeStamp>
+    <Code>INVCURRENCY</Code>
+    <Name>Invoice Currency</Name>
+    <ShortName>Invoice Currency</ShortName>
+    <Type>reporting_code</Type>
+    <Members>
+        <Member>
+            <Value>CAD</Value>
+            <Description>Canadian Currency</Description>
+            <Enabled>true</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>USD</Value>
+            <Description>US Currency</Description>
+            <Enabled>true</Enabled>
+            <Flags/>
+        </Member>
+    </Members>
+</ns2:com.coda.efinance.schemas.entitymaster.entity>

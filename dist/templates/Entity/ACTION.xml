@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:com.coda.efinance.schemas.entitymaster.entity xmlns="http://www.coda.com/efinance/schemas/entitymaster" xmlns:ns2="com.coda.efinance.schemas.entitymaster">
+    <TimeStamp>12</TimeStamp>
+    <Code>ACTION</Code>
+    <Name>Diary action codes</Name>
+    <ShortName>Diary action codes</ShortName>
+    <Type>diary_action_code</Type>
+    <Members>
+        <Member>
+            <Value>PHONE</Value>
+            <Description>Phone Client</Description>
+            <Enabled>false</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>LETTER</Value>
+            <Description>Letter to customer</Description>
+            <Enabled>false</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>MANAGER</Value>
+            <Description>Discuss with Manager</Description>
+            <Enabled>false</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>REVIEW</Value>
+            <Description>Review account</Description>
+            <Enabled>false</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>SOLICITOR</Value>
+            <Description>Discuss with legal</Description>
+            <Enabled>false</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>LEGAL</Value>
+            <Description>Refer to Legal</Description>
+            <Enabled>false</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>DISPUTE</Value>
+            <Description>Disputed Invoice</Description>
+            <Enabled>false</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>FAX</Value>
+            <Description>Fax Statement to Client</Description>
+            <Enabled>false</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>EMAIL</Value>
+            <Description>Email Statement to Client</Description>
+            <Enabled>false</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>CFS</Value>
+            <Description>CFS Internal Issue</Description>
+            <Enabled>false</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>COLL HISTORY</Value>
+            <Description>Collection History</Description>
+            <Enabled>true</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>BAD DEBTS</Value>
+            <Description>Bad Debts</Description>
+            <Enabled>false</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>GETPAID HIST</Value>
+            <Description>GetPaid History</Description>
+            <Enabled>true</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>CFSMANAGER</Value>
+            <Description>Discuss with Manager</Description>
+            <Enabled>true</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>3RD PARTY</Value>
+            <Description>Refer to Legal</Description>
+            <Enabled>true</Enabled>
+            <Flags/>
+        </Member>
+    </Members>
+</ns2:com.coda.efinance.schemas.entitymaster.entity>

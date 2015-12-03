@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns3:com.coda.efinance.schemas.country.countrymaster xmlns="http://www.coda.com/efinance/schemas/country" xmlns:ns2="http://www.coda.com/efinance/schemas/common" xmlns:ns3="com.coda.efinance.schemas.country">
+    <Code>POL</Code>
+    <Name>POLAND</Name>
+    <TimeStamp>0</TimeStamp>
+    <AlternativeCode></AlternativeCode>
+    <Language></Language>
+    <PostCode></PostCode>
+    <Bank></Bank>
+    <Tax></Tax>
+    <BankSortCodeRequired>false</BankSortCodeRequired>
+    <BankAccountNameRequired>false</BankAccountNameRequired>
+    <BankReferenceRequired>false</BankReferenceRequired>
+    <BankIBANRequired>false</BankIBANRequired>
+</ns3:com.coda.efinance.schemas.country.countrymaster>

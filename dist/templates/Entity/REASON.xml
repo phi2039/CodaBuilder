@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:com.coda.efinance.schemas.entitymaster.entity xmlns="http://www.coda.com/efinance/schemas/entitymaster" xmlns:ns2="com.coda.efinance.schemas.entitymaster">
+    <TimeStamp>28</TimeStamp>
+    <Code>REASON</Code>
+    <Name>Diary reason codes</Name>
+    <ShortName>Diary reason codes</ShortName>
+    <Type>reason_code_cat</Type>
+    <Members>
+        <Member>
+            <Value>CHQ-IN-POST</Value>
+            <Description>Check in mail</Description>
+            <Enabled>false</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>SIG-AWAY</Value>
+            <Description>Signatory out of office</Description>
+            <Enabled>false</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>FAULTY</Value>
+            <Description>Faulty goods</Description>
+            <Enabled>false</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>INV-DISP</Value>
+            <Description>Disputed invoice</Description>
+            <Enabled>false</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>INV-LOST</Value>
+            <Description>Invoice lost/not received</Description>
+            <Enabled>false</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>PMTMAIL</Value>
+            <Description>Payment enroute</Description>
+            <Enabled>false</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>NAFTAUSA</Value>
+            <Description>NAFTA/FTA Incorrect - US</Description>
+            <Enabled>false</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>CFSADVPAY</Value>
+            <Description>CFS Advance Payment</Description>
+            <Enabled>false</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>CFSALLOCERR</Value>
+            <Description>CFS Allocation Error</Description>
+            <Enabled>false</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>CFSBANKCHRG</Value>
+            <Description>CFS BWT Charge</Description>
+            <Enabled>false</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>CFSCCFEE</Value>
+            <Description>CFS Credit Card Admin Fee</Description>
+            <Enabled>false</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>CFSCASHFLOW</Value>
+            <Description>CFS Cash Flow Problems</Description>
+            <Enabled>false</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>CFSINCINV</Value>
+            <Description>CFS Incorrect Invoice Quoted / Remit</Description>
+            <Enabled>false</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>CFSOUTOFBUS</Value>
+            <Description>CFS Client Out of Business</Description>
+            <Enabled>false</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>CFSCRDEDERR</Value>
+            <Description>CFS Credit Deducted in Error</Description>
+            <Enabled>false</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>CFSDUPPAY</Value>
+            <Description>CFS Duplicate Payment</Description>
+            <Enabled>false</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>CFSCURREXCH</Value>
+            <Description>CFS Exchange</Description>
+            <Enabled>false</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>CFSNSFCHQ</Value>
+            <Description>CFS NSF Cheque</Description>
+            <Enabled>false</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>CFSREMITERR</Value>
+            <Description>CFS Payment Amount Error</Description>
+            <Enabled>false</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>CFSCLAIMPAID</Value>
+            <Description>CFS Client Claims Already Paid</Description>
+            <Enabled>false</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>CFSSTOPPAY</Value>
+            <Description>CFS Stop Payment</Description>
+            <Enabled>false</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>CFSOVER90</Value>
+            <Description>CFS Credit/Debit Over 90</Description>
+            <Enabled>false</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>SHORTPAYMENT</Value>
+            <Description>Shortpayment</Description>
+            <Enabled>false</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>INVDUPLICATE</Value>
+            <Description>Invoice Duplicate</Description>
+            <Enabled>false</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>EDISUPPORT</Value>
+            <Description>EDI Support Request</Description>
+            <Enabled>false</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>WRONGBILLPTY</Value>
+            <Description>Wrong Bill to Party</Description>
+            <Enabled>false</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>BCKUPMISSING</Value>
+            <Description>Backup Missing from Invoices</Description>
+            <Enabled>false</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>INVMISSING</Value>
+            <Description>Invoice Missing</Description>
+            <Enabled>false</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>INVNOTK84</Value>
+            <Description>Invoice Not K84'd</Description>
+            <Enabled>false</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>POMISSING</Value>
+            <Description>PO or Other Client Requirmnt Missing</Description>
+            <Enabled>false</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>INVNOTONSUM</Value>
+            <Description>Invoice Missing from Summary Bill</Description>
+            <Enabled>false</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>BONDFEEINC</Value>
+            <Description>Bond Charges Incorrect</Description>
+            <Enabled>false</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>GPIDISPUTE</Value>
+            <Description>Renegotiation Request</Description>
+            <Enabled>false</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>DELIVERYCHRG</Value>
+            <Description>Delivery Charge</Description>
+            <Enabled>false</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>VFDINCORRECT</Value>
+            <Description>Value for Duty Incorrect</Description>
+            <Enabled>false</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>E29BTEMPCDA</Value>
+            <Description>Good Temporarily in Canada</Description>
+            <Enabled>false</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>FREIGHTINC</Value>
+            <Description>Freight Charges Incorrect</Description>
+            <Enabled>false</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>STORAGEINC</Value>
+            <Description>Storage Demurrage Incorrect</Description>
+            <Enabled>false</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>TAXESINC</Value>
+            <Description>Taxes Incorrect</Description>
+            <Enabled>false</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>GSTINCORRECT</Value>
+            <Description>GST Incorrect</Description>
+            <Enabled>false</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>POSTENTRY</Value>
+            <Description>Post-Entry Support</Description>
+            <Enabled>false</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>CLAUTHORIZE</Value>
+            <Description>Client Authorization Not Received</Description>
+            <Enabled>false</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>INVCURRINC</Value>
+            <Description>Currency for LII Invoices Incorrect</Description>
+            <Enabled>false</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>NAFTACDA</Value>
+            <Description>NAFTA/COO Incorrect - Canada</Description>
+            <Enabled>false</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>CFSCOMMENTS</Value>
+            <Description>CFS Account Level Comments</Description>
+            <Enabled>false</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>COLLHISTORY</Value>
+            <Description>Collection History</Description>
+            <Enabled>false</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>2012</Value>
+            <Description>Coda History 2012</Description>
+            <Enabled>false</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>2013</Value>
+            <Description>Coda History 2013</Description>
+            <Enabled>false</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>2014</Value>
+            <Description>Coda History 2014</Description>
+            <Enabled>false</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>2015</Value>
+            <Description>Coda History 2015</Description>
+            <Enabled>true</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>PRECODA</Value>
+            <Description>GetPaid History Notes</Description>
+            <Enabled>true</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>2016</Value>
+            <Description>Coda History 2016</Description>
+            <Enabled>false</Enabled>
+            <Flags/>
+        </Member>
+    </Members>
+</ns2:com.coda.efinance.schemas.entitymaster.entity>

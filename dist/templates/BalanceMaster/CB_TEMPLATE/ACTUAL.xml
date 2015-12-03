@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:com.coda.efinance.schemas.balancemaster.balancemaster xmlns="http://www.coda.com/efinance/schemas/balancemaster" xmlns:ns2="com.coda.efinance.schemas.balancemaster">
+    <CmpCode>CB_TEMPLATE</CmpCode>
+    <TimeStamp>2</TimeStamp>
+    <Code>ACTUAL</Code>
+    <Name>Actual Balance</Name>
+    <ShortName>Actual Balance</ShortName>
+    <CODAMaintained>true</CODAMaintained>
+    <DecimalPlaces>2</DecimalPlaces>
+    <BalMaintainedByCommitments>false</BalMaintainedByCommitments>
+</ns2:com.coda.efinance.schemas.balancemaster.balancemaster>

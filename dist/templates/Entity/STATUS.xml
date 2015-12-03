@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:com.coda.efinance.schemas.entitymaster.entity xmlns="http://www.coda.com/efinance/schemas/entitymaster" xmlns:ns2="com.coda.efinance.schemas.entitymaster">
+    <TimeStamp>49</TimeStamp>
+    <Code>STATUS</Code>
+    <Name>Element statuses</Name>
+    <ShortName>Element statuses</ShortName>
+    <Type>elm_status_cat</Type>
+    <Members>
+        <Member>
+            <Value>STOP</Value>
+            <Description>Stop credit</Description>
+            <Enabled>false</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>SPECIAL</Value>
+            <Description>Allow to exceed credit limit</Description>
+            <Enabled>false</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>OK</Value>
+            <Description>Good standing</Description>
+            <Enabled>false</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>CUSTOMER</Value>
+            <Description>Wait on customer reply</Description>
+            <Enabled>false</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>BANKRUPTCY</Value>
+            <Description>Bankruptcy</Description>
+            <Enabled>true</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>THIRD PARTY</Value>
+            <Description>Third Party/Legal</Description>
+            <Enabled>true</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>CANCEL</Value>
+            <Description>Cancel</Description>
+            <Enabled>true</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>HOLD</Value>
+            <Description>Hold</Description>
+            <Enabled>false</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>ACTIVE</Value>
+            <Description>Active</Description>
+            <Enabled>true</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>CREDIT HOLD</Value>
+            <Description>Credit Hold</Description>
+            <Enabled>true</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>OUT OF BUS</Value>
+            <Description>Out of Business</Description>
+            <Enabled>true</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>SUB FOR W/O</Value>
+            <Description>Submitted for w/o</Description>
+            <Enabled>true</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>RENT</Value>
+            <Description>Rent</Description>
+            <Enabled>false</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>UTILITIES</Value>
+            <Description>Utilities</Description>
+            <Enabled>false</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>COMMUNICATE</Value>
+            <Description>Communitcations</Description>
+            <Enabled>false</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>COURIER-OVHD</Value>
+            <Description>Courier-Overhead</Description>
+            <Enabled>false</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>OTHER-OVHD</Value>
+            <Description>Other Overhead</Description>
+            <Enabled>false</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>BROKERS-OVHD</Value>
+            <Description>Brokers Overhead</Description>
+            <Enabled>false</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>AIRLINE</Value>
+            <Description>Airline</Description>
+            <Enabled>false</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>OCEAN</Value>
+            <Description>Ocean</Description>
+            <Enabled>true</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>TRUCKING</Value>
+            <Description>Trucking</Description>
+            <Enabled>true</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>RAIL</Value>
+            <Description>Rail</Description>
+            <Enabled>true</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>COURIER-FRHT</Value>
+            <Description>Courier Freight</Description>
+            <Enabled>true</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>BROKERS-FRHT</Value>
+            <Description>Brokers Freight</Description>
+            <Enabled>false</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>RECEIVER-GEN</Value>
+            <Description>Receiver General</Description>
+            <Enabled>false</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>EMPLOYEE</Value>
+            <Description>Employee</Description>
+            <Enabled>false</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>AGENT</Value>
+            <Description>Agent</Description>
+            <Enabled>true</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>GOVT-OVHD</Value>
+            <Description>All Taxes(OVHD Govt &amp; other)</Description>
+            <Enabled>true</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>GOVT-FRHT</Value>
+            <Description>Governement Freight</Description>
+            <Enabled>true</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>AIR</Value>
+            <Description>AIR</Description>
+            <Enabled>true</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>MULTI-TRSP</Value>
+            <Description>multi transport</Description>
+            <Enabled>false</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>WAREHOUSE</Value>
+            <Description>warehouse</Description>
+            <Enabled>true</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>BRK-FWD-CUS</Value>
+            <Description>brk-fwd-cus</Description>
+            <Enabled>true</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>LII-FRHT</Value>
+            <Description>LII Freight</Description>
+            <Enabled>true</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>US-CUST-FRHT</Value>
+            <Description>us-cust-frht</Description>
+            <Enabled>true</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>LII-OVHD</Value>
+            <Description>LII-OVHD</Description>
+            <Enabled>false</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>PAYABLE</Value>
+            <Description>Payable</Description>
+            <Enabled>true</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>K84</Value>
+            <Description>K84 - Duty CDN</Description>
+            <Enabled>true</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>REC GEN-FRHT</Value>
+            <Description>Receiver General Freight</Description>
+            <Enabled>true</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>US-CUST-OVHD</Value>
+            <Description>US Customs Overhead</Description>
+            <Enabled>false</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>REC GEN-OVHD</Value>
+            <Description>Receiver General Overhead</Description>
+            <Enabled>false</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>ACH-DUTY US</Value>
+            <Description>ACH  Duty US</Description>
+            <Enabled>false</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>ACH</Value>
+            <Description>ACH-Duty US</Description>
+            <Enabled>false</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>PROFESSIONAL</Value>
+            <Description>Professional, Legal &amp; Audit</Description>
+            <Enabled>false</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>TAX</Value>
+            <Description>Corporate &amp; Sales Tax</Description>
+            <Enabled>false</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>CONSULTANTS</Value>
+            <Description>Consultants</Description>
+            <Enabled>false</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>TECHNOLOGY</Value>
+            <Description>Technology (IT vendors)</Description>
+            <Enabled>false</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>MAINTENANCE</Value>
+            <Description>Maintemance</Description>
+            <Enabled>false</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>AGENT-OVHD</Value>
+            <Description>Agent</Description>
+            <Enabled>false</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>CONTRACTORS</Value>
+            <Description>Contractors</Description>
+            <Enabled>false</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>SUPPLIES</Value>
+            <Description>Supply</Description>
+            <Enabled>false</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>RENT-OVHD</Value>
+            <Description>Rent-OVHD</Description>
+            <Enabled>true</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>UTLY-OVHD</Value>
+            <Description>Utility-OVHD</Description>
+            <Enabled>true</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>COMM-OVHD</Value>
+            <Description>Commmunication-OVHD</Description>
+            <Enabled>true</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>BROK-OVHD</Value>
+            <Description>Brokers-OVHD</Description>
+            <Enabled>true</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>COUR-OVHD</Value>
+            <Description>Couriers-OVHD</Description>
+            <Enabled>true</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>CONT-OVHD</Value>
+            <Description>Contractors -OVHD</Description>
+            <Enabled>true</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>EMPL-OVHD</Value>
+            <Description>Employee-OVHD</Description>
+            <Enabled>true</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>BENF-OVHD</Value>
+            <Description>Benefits-OVHD</Description>
+            <Enabled>true</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>AMEX-OVHD</Value>
+            <Description>Amex-OVHD</Description>
+            <Enabled>true</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>PROF-OVHD</Value>
+            <Description>Profession Service, Audit-OVH</Description>
+            <Enabled>true</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>TECH-OVHD</Value>
+            <Description>Technology-OVHD</Description>
+            <Enabled>true</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>MAIN-OVHD</Value>
+            <Description>Maintenance-OVHD</Description>
+            <Enabled>false</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>LVII-OVHD</Value>
+            <Description>Livingston Companies-0VHD</Description>
+            <Enabled>true</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>SUPP-OVHD</Value>
+            <Description>Supplies-OVHD</Description>
+            <Enabled>true</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>OTHR-OVHD</Value>
+            <Description>All Other Vendors-OVHD</Description>
+            <Enabled>true</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>AGNT-OVHD</Value>
+            <Description>Agents-OVHD</Description>
+            <Enabled>true</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>MTNC-OVHD</Value>
+            <Description>Maintenance-OVHD</Description>
+            <Enabled>true</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>CONS-OVHD</Value>
+            <Description>Consultants - OVHD</Description>
+            <Enabled>true</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>LEGA-OVHD</Value>
+            <Description>Legal - OVHD</Description>
+            <Enabled>true</Enabled>
+            <Flags/>
+        </Member>
+    </Members>
+</ns2:com.coda.efinance.schemas.entitymaster.entity>

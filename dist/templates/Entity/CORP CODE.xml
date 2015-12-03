@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:com.coda.efinance.schemas.entitymaster.entity xmlns="http://www.coda.com/efinance/schemas/entitymaster" xmlns:ns2="com.coda.efinance.schemas.entitymaster">
+    <TimeStamp>5</TimeStamp>
+    <Code>CORP CODE</Code>
+    <Name>Corporate Code</Name>
+    <ShortName>Corporate Code</ShortName>
+    <Type>reporting_code</Type>
+    <Members>
+        <Member>
+            <Value>C</Value>
+            <Description>Consulting</Description>
+            <Enabled>true</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>D</Value>
+            <Description>Sub Agents Broker Acct</Description>
+            <Enabled>true</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>E</Value>
+            <Description>Self Clear</Description>
+            <Enabled>true</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>F</Value>
+            <Description>IFF / Agent Client</Description>
+            <Enabled>true</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>G</Value>
+            <Description>IFF / Shared Client</Description>
+            <Enabled>true</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>I</Value>
+            <Description>Self Bond Client</Description>
+            <Enabled>true</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>J</Value>
+            <Description>LLP DBA M&amp;C (CDB only)</Description>
+            <Enabled>true</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>K</Value>
+            <Description>US Brokerage Client</Description>
+            <Enabled>true</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>M</Value>
+            <Description>Event Logistics Client</Description>
+            <Enabled>true</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>N</Value>
+            <Description>M&amp;C IFF Only client</Description>
+            <Enabled>true</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>P</Value>
+            <Description>Insight Partner client</Description>
+            <Enabled>true</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>Q</Value>
+            <Description>M&amp;C Consulting client</Description>
+            <Enabled>true</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>R</Value>
+            <Description>M&amp;C IFF/CDB Shared client</Description>
+            <Enabled>true</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>S</Value>
+            <Description>Seminar billing</Description>
+            <Enabled>true</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>T</Value>
+            <Description>NAF/Freight  client</Description>
+            <Enabled>true</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>U</Value>
+            <Description>US Brokerage client</Description>
+            <Enabled>true</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>W</Value>
+            <Description>Watkins Canada Client</Description>
+            <Enabled>true</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>X</Value>
+            <Description>Purolator Joint Venture</Description>
+            <Enabled>true</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>Y</Value>
+            <Description>UIL one step</Description>
+            <Enabled>true</Enabled>
+            <Flags/>
+        </Member>
+        <Member>
+            <Value>MES</Value>
+            <Description>Month End Settlement</Description>
+            <Enabled>false</Enabled>
+            <Flags/>
+        </Member>
+    </Members>
+</ns2:com.coda.efinance.schemas.entitymaster.entity>

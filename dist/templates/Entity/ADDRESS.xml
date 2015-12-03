@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:com.coda.efinance.schemas.entitymaster.entity xmlns="http://www.coda.com/efinance/schemas/entitymaster" xmlns:ns2="com.coda.efinance.schemas.entitymaster">
+    <TimeStamp>10</TimeStamp>
+    <Code>ADDRESS</Code>
+    <Name>Address</Name>
+    <ShortName>Address</ShortName>
+    <Type>address_cat</Type>
+    <Members>
+        <Member>
+            <Value>SEND PO</Value>
+            <Description>Vendor Send PO</Description>
+            <Enabled>true</Enabled>
+            <Flags>
+                <Payment>false</Payment>
+            </Flags>
+        </Member>
+        <Member>
+            <Value>BILL TO</Value>
+            <Description>Customer Bill To</Description>
+            <Enabled>true</Enabled>
+            <Flags>
+                <Payment>false</Payment>
+            </Flags>
+        </Member>
+        <Member>
+            <Value>REMIT TO</Value>
+            <Description>Vendor Remit Payments</Description>
+            <Enabled>true</Enabled>
+            <Flags>
+                <Payment>true</Payment>
+            </Flags>
+        </Member>
+        <Member>
+            <Value>SHIP TO</Value>
+            <Description>Customer Ship To</Description>
+            <Enabled>true</Enabled>
+            <Flags>
+                <Payment>false</Payment>
+            </Flags>
+        </Member>
+        <Member>
+            <Value>DELIVERY</Value>
+            <Description>do not use</Description>
+            <Enabled>false</Enabled>
+            <Flags>
+                <Payment>false</Payment>
+            </Flags>
+        </Member>
+        <Member>
+            <Value>PAY</Value>
+            <Description>do not use</Description>
+            <Enabled>false</Enabled>
+            <Flags>
+                <Payment>false</Payment>
+            </Flags>
+        </Member>
+        <Member>
+            <Value>INVOICE</Value>
+            <Description>do not use</Description>
+            <Enabled>false</Enabled>
+            <Flags>
+                <Payment>false</Payment>
+            </Flags>
+        </Member>
+        <Member>
+            <Value>AP CONTACT</Value>
+            <Description>AP Contact</Description>
+            <Enabled>false</Enabled>
+            <Flags>
+                <Payment>true</Payment>
+            </Flags>
+        </Member>
+        <Member>
+            <Value>AP CONTACT 1</Value>
+            <Description>AP Contact 1</Description>
+            <Enabled>true</Enabled>
+            <Flags>
+                <Payment>true</Payment>
+            </Flags>
+        </Member>
+        <Member>
+            <Value>AP CONTACT 2</Value>
+            <Description>AP Contact 2</Description>
+            <Enabled>true</Enabled>
+            <Flags>
+                <Payment>true</Payment>
+            </Flags>
+        </Member>
+        <Member>
+            <Value>AP CONTACT 3</Value>
+            <Description>AP Contact 3</Description>
+            <Enabled>true</Enabled>
+            <Flags>
+                <Payment>true</Payment>
+            </Flags>
+        </Member>
+        <Member>
+            <Value>SALES REP</Value>
+            <Description>Sales Rep</Description>
+            <Enabled>true</Enabled>
+            <Flags>
+                <Payment>false</Payment>
+            </Flags>
+        </Member>
+    </Members>
+</ns2:com.coda.efinance.schemas.entitymaster.entity>

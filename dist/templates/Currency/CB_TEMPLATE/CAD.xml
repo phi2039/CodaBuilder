@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:com.coda.efinance.schemas.currency.currency xmlns="http://www.coda.com/efinance/schemas/currency" xmlns:ns2="com.coda.efinance.schemas.currency">
+    <TimeStamp>7</TimeStamp>
+    <CmpCode>CB_TEMPLATE</CmpCode>
+    <Code>CAD</Code>
+    <Name>Canadian Dollar</Name>
+    <ShortName>Canadian Dollar</ShortName>
+    <SingularUnits>Dollar</SingularUnits>
+    <SingularDecimals>Cent</SingularDecimals>
+    <PluralUnits>Dollars</PluralUnits>
+    <PluralDecimals>Cents</PluralDecimals>
+    <AbbreviatedUnits>$</AbbreviatedUnits>
+    <AbbreviatedDecimals>c</AbbreviatedDecimals>
+    <SymbolPos>before</SymbolPos>
+    <CurRateControl>notset</CurRateControl>
+    <SelfBalancing>false</SelfBalancing>
+    <NumberOfDecimals>2</NumberOfDecimals>
+    <Postings>true</Postings>
+    <LinkType>no_link</LinkType>
+    <Shared>false</Shared>
+    <Rates>
+        <Rate>
+            <Date>1753-01-01T00:00:00.000Z</Date>
+            <Rate>1</Rate>
+            <MultiplyOrDivide>rate_mul</MultiplyOrDivide>
+            <RateScaling>1</RateScaling>
+            <ParentType>currel_home</ParentType>
+        </Rate>
+    </Rates>
+    <Infos/>
+</ns2:com.coda.efinance.schemas.currency.currency>
